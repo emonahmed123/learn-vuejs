@@ -5,6 +5,8 @@ import TheWelcome from "./components/TheWelcome.vue";
 import firstcomp from "./components/fristcom.vue"
 import Twowaydatabinding from "./components/twowaydatabinding.vue";
 import twowaydatabinding from "./components/twowaydatabinding.vue"
+import Cheakbox from "./components/Cheakbox.vue";
+import ifelseconditon from "./components/ifelseconditon.vue";
 </script>
 
 <template>
@@ -28,8 +30,11 @@ import twowaydatabinding from "./components/twowaydatabinding.vue"
   </main> -->
 
  <!-- <firstcomp/> -->
- <Twowaydatabinding/>
- 
+ <!-- <Twowaydatabinding/> -->
+
+<!-- <Cheakbox/> -->
+ <ifelseconditon/> 
+
 </template>
 
 <!-- <style scoped>
