@@ -7,6 +7,7 @@ import Twowaydatabinding from "./components/twowaydatabinding.vue";
 import twowaydatabinding from "./components/twowaydatabinding.vue"
 import Cheakbox from "./components/Cheakbox.vue";
 import ifelseconditon from "./components/ifelseconditon.vue";
+import parnet from "./components/parnet.vue"
 </script>
 
 <template>
@@ -33,8 +34,8 @@ import ifelseconditon from "./components/ifelseconditon.vue";
  <!-- <Twowaydatabinding/> -->
 
 <!-- <Cheakbox/> -->
- <ifelseconditon/> 
-
+ <!-- <ifelseconditon/>  -->
+<parnet/>
 </template>
 
 <!-- <style scoped>
