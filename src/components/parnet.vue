@@ -1,11 +1,15 @@
 <template>
 
 
-<ul>
+<!-- <ul>
     <li v-for="user in users " :key="user.name">
         <child v-bind:data="user"/>
     </li>
-</ul>
+</ul> -->
+
+<h1 :class="{Orange:colorfull}">css cingidng</h1>
+
+<button @click="colorfull=!colorfull">change</button>
 
 </template>
 
@@ -20,32 +24,20 @@ import child from './child.vue';
 components:{
     child
 },
+
 data(){
     return{
-        users:[
-            {
-                name:"emon",
-                age:23,
-
-            },
-            {
-                name:"smon",
-                age:23,
-
-            },
-            {
-                name:"amon",
-                age:23,
-
-            },
-            {
-                name:"tmon",
-                age:23,
-
-            },
-        ]
+      colorfull:false,
     }
 }
  }
 
 </script>
+
+
+<style scoped>
+.Orange{
+    color: orange;
+    background-color: aqua;
+}
+</style>

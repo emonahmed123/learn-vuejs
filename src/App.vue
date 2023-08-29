@@ -8,6 +8,8 @@ import twowaydatabinding from "./components/twowaydatabinding.vue"
 import Cheakbox from "./components/Cheakbox.vue";
 import ifelseconditon from "./components/ifelseconditon.vue";
 import parnet from "./components/parnet.vue"
+import learn from "./components/learn-ref.vue"
+import Form from "./components/Form.vue";
 </script>
 
 <template>
@@ -35,7 +37,10 @@ import parnet from "./components/parnet.vue"
 
 <!-- <Cheakbox/> -->
  <!-- <ifelseconditon/>  -->
-<parnet/>
+<!-- <parnet/> -->
+<!-- <learn/> -->
+<Form/>
+
 </template>
 
 <!-- <style scoped>
